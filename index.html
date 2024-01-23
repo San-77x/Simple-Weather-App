@@ -11,9 +11,25 @@
     <div class="card">
         <div class="searchBar">
             <input type="text" name="searchBox" id="searchBox" placeholder="Enter Your City">
-            <img id="searchButton" src="searching.png" alt="Search">
+            <img id="searchButton" src="searchButton.png" alt="Search">
         </div>
-
+        <div class="weatherCard">
+            <div class="temperatureCard">
+                <img src="weather/mist.png" alt="Weather-Icon" id="weatherIcon">
+                <h1 id="temperature">21°C</h1>
+                <h2 id="cityName">New York</h2>
+            </div>
+                <div class="details">
+                    <section id="humidity">
+                        <img src="details/humidity.png">
+                       <h2>48% <br><span>humidity</span></h2>
+                   </section>
+                   <section id="windSpeed">
+                    <img src="details/windspeed.png">
+                    <h2>14.2 Km/h <br><span>Wind Speed</span></h2>
+                   </section>
+                </div> 
+        </div>
     </div>
     <script>scripts.js</script>
 </body>

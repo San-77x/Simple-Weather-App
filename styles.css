@@ -1,0 +1,77 @@
+body{
+    background: rgb(2,0,36);
+}
+.card{
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    margin: 100px auto 0px;
+    color: white;
+    border-radius: 25px;
+    padding: 40px 35px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,99,215,1) 0%, rgba(82,213,240,1) 100%);
+}
+
+.card input{
+    border: 0;
+    outline: 0;
+    color: #555;
+    padding: 10px 45px;
+    height: 50px;
+    background: #ebfffc;
+    margin-right: 16px;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 60%;
+}
+.card .searchBar img{
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.card .searchBar img:hover{
+    transform: scale(1.1);
+    background-color: blue;
+}
+
+.weatherCard .temperatureCard img{
+    width: 100px;
+    margin-top: 40px;
+}
+.weatherCard .temperatureCard h1{
+    font: 600;
+    font-size: 40px;
+}
+.weatherCard .temperatureCard h2{
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.card .weatherCard .details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.card .weatherCard .details section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .weatherCard .details img{
+    width: 60px;
+}
+
+.card .weatherCard .details h2{
+    font-size: 30px;
+    font-weight: 200;
+    text-align: left;
+    padding-left:20px ;
+}
+.card .weatherCard .details h2 span{
+    font-size: 18px;
+}
+
